@@ -2352,4 +2352,20 @@ footer {
   font-family: Helvetica Neue;
   color: #64340a; }
 
+.alert {
+  position: fixed;
+  left: 50px;
+  top: -200px;
+  transition: top .3s;
+  border: 1px solid #ccc;
+  background: #efefef;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+  padding: 25px; }
+  .alert.show {
+    top: 50px; }
+
+#subjectline {
+  display: none; }
+
 /*# sourceMappingURL=main_styles.css.map */

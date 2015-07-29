@@ -218,3 +218,18 @@ footer {
 	font-family: Helvetica Neue;
 	color: darken($secondary_color, 25%);
 }
+
+.alert {
+    position: fixed;
+    left: 50px;
+    top: -200px;
+    transition: top .3s;
+    border: 1px solid #ccc;
+    background: #efefef;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+    font-family: sans-serif;
+    padding: 25px;
+    &.show {
+        top: 50px;
+    }
+}
